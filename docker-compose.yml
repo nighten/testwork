@@ -19,6 +19,9 @@ services:
       - app_network
     volumes:
       - ./:/var/www/html/
+    environment:
+      XDEBUG_CONFIG: "remote_host=host.docker.internal idekey=123"
+      PHP_IDE_CONFIG: "serverName=Docker"
     depends_on:
       - mysql
     restart: unless-stopped
