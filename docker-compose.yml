@@ -7,7 +7,7 @@ services:
     depends_on:
       - php
     ports:
-      - 80:80
+      - 8089:80
     volumes:
       - .docker/nginx/conf/testwork.conf:/etc/nginx/conf.d/default.conf
       - ./:/var/www/html:ro
@@ -30,7 +30,7 @@ services:
     networks:
       - app_network
     ports:
-      - 3306:3306
+      - 3310:3306
     environment:
       - MYSQL_DATABASE=${MYSQL_DATABASE}
       - MYSQL_ROOT_PASSWORD=${MYSQL_PASSWORD}

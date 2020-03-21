@@ -9,7 +9,7 @@ nelmio_api_doc:
     - name: "Category"
       description: "Access to Categories"
     info:
-      title: Links API
+      title: Test Work Rest API
       version: 1.0.0
     securityDefinitions:
       basicAuth:
