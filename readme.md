@@ -1,5 +1,9 @@
 # Тестовое задание
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/nighten/testwork/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/nighten/testwork/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/nighten/testwork/badges/build.png?b=master)](https://scrutinizer-ci.com/g/nighten/testwork/build-status/master)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/nighten/testwork/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
+
 ## Краткое описание
 Необходимо создать RESTfull API сервис для новостного мобильного приложения.
 
